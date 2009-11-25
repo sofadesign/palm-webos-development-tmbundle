@@ -6,7 +6,8 @@
 	<string>saveModifiedFiles</string>
 	<key>command</key>
 	<string>echo "{"
-grep -R "\$L(\".*\")" "$TM_PROJECT_DIRECTORY" | sed 's/.*\$L("/"/g' | sed 's/").*/"/g' | while read line; do echo -e "\t$line: \"\","; done
+grep -R "\$L(\".*\")" "$TM_PROJECT_DIRECTORY" | sed 's/.*$L("/"/g' | sed 's/").*/"/g' | while read line; do echo -e "\t$line: \"\","; done
+grep -R "\$L('.*')" ./ | sed "s/.*$L('/\"/g" | sed "s/').*/\"/g" | while read line; do echo -e "\t$line: \"\","; done
 echo -e "\t\"ZZZ_LASTSTRING\": \"\" // This is being added for you to not forget to remove the last comma. :-)"
 echo "}"
 </string>
