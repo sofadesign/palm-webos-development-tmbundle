@@ -76,6 +76,15 @@
 				<key>name</key>
 				<string>Animation</string>
 			</dict>
+			<key>7F773F26-6A86-4BEE-8B53-CEB2838CC0E3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>91D584A7-B3BF-4546-AB97-E2F85CDDA9B2</string>
+				</array>
+				<key>name</key>
+				<string>Translation</string>
+			</dict>
 			<key>A0963878-F9AC-4BC1-8759-3C6FED33343F</key>
 			<dict>
 				<key>items</key>
@@ -123,6 +132,7 @@
 					<string>A0DE06BE-4601-49C1-B7F7-433563262BDF</string>
 					<string>560794C6-493E-4962-BCC4-ABF8F2CF4569</string>
 					<string>4A2543FA-7028-473C-9BC7-E94C5FA9CFBA</string>
+					<string>7F773F26-6A86-4BEE-8B53-CEB2838CC0E3</string>
 					<string>B0FDCE66-5E86-4827-A6D8-32C7032B91F8</string>
 				</array>
 				<key>name</key>
@@ -153,6 +163,7 @@
 		<string>A443A51E-71A0-4677-962F-0CC9DF8E23BE</string>
 		<string>2B0802C3-7340-4566-8845-5BA2B9DE3B09</string>
 		<string>FDD40F7F-23FC-4DEB-8959-2642570D65E9</string>
+		<string>91D584A7-B3BF-4546-AB97-E2F85CDDA9B2</string>
 		<string>E23E4E87-ECBF-489C-A56A-C37E1A61D814</string>
 		<string>38974ECE-80A1-44A9-9568-3DB9F6D10C98</string>
 		<string>61D89CCC-6C06-4BA7-A358-A55246525A0D</string>
