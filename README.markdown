@@ -5,6 +5,11 @@ Palm webOS TextMate bundle
 Installation
 ------------
 
+Palm SDK path to binaries must be added to your system environment PATH. If not, add it to your ~/.profile:
+
+    # Add PalmSDK bin path to PATH variable
+    export PATH=/opt/PalmSDK/0.1/bin:$PATH
+
 To install via Git:
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
